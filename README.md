@@ -1,18 +1,36 @@
-## Getting Started
+## プロジェクト概要
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+このプロジェクトは、Java の GUI ライブラリである Swing を使って作成された数字当てゲームです。  
+ユーザーは 1 から 100 までの数字を入力し、コンピュータがランダムに選んだ正解の数字を当てます。  
+入力ごとに「大きい」「小さい」といったヒントが表示され、正解するとクリアメッセージが表示されます。  
+また、ゲームのリセット機能も搭載しており、何度でも挑戦できます。
 
-## Folder Structure
+主な機能:
+- Swing によるシンプルな GUI（テキストフィールド、ボタン、ラベルなど）
+- 正解の数字をランダムで生成
+- ユーザーの入力に対してヒントを表示
+- 正解時のクリア判定とメッセージ表示
+- ゲームリセット機能
 
-The workspace contains two folders by default, where:
+---
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## はじめに
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+このリポジトリは Visual Studio Code で Java プログラムを始めるためのサンプルプロジェクトです。  
+Java のコードを VS Code で書き始める場合の参考やガイドラインとなります。
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## フォルダー構成
 
-## Dependency Management
+ワークスペースには、デフォルトで以下の 2 つのフォルダーが含まれています。
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- `src`: ソースコードを管理するフォルダー
+- `lib`: 依存関係を管理するフォルダー
+
+また、コンパイルされた出力ファイルは、デフォルトで `bin` フォルダーに生成されます。
+
+> フォルダー構成をカスタマイズしたい場合は、`.vscode/settings.json` を開いて関連設定を変更してください。
+
+## 依存関係の管理
+
+`JAVA PROJECTS` ビューから依存関係を管理できます。  
+詳細は [こちら](https://github.com/microsoft/vscode-java-dependency#manage-dependencies) を参照してください。
